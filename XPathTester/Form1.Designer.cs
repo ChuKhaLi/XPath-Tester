@@ -42,7 +42,7 @@
             // 
             // txtXPathQuery
             // 
-            this.txtXPathQuery.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtXPathQuery.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtXPathQuery.Location = new System.Drawing.Point(12, 21);
             this.txtXPathQuery.Multiline = true;
             this.txtXPathQuery.Name = "txtXPathQuery";
@@ -51,6 +51,7 @@
             // 
             // txtXmlDocument
             // 
+            this.txtXmlDocument.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtXmlDocument.Location = new System.Drawing.Point(6, 19);
             this.txtXmlDocument.Multiline = true;
             this.txtXmlDocument.Name = "txtXmlDocument";
@@ -100,9 +101,11 @@
             // 
             // txtXPathResult
             // 
+            this.txtXPathResult.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtXPathResult.Location = new System.Drawing.Point(6, 19);
             this.txtXPathResult.Multiline = true;
             this.txtXPathResult.Name = "txtXPathResult";
+            this.txtXPathResult.ReadOnly = true;
             this.txtXPathResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtXPathResult.Size = new System.Drawing.Size(493, 312);
             this.txtXPathResult.TabIndex = 1;
